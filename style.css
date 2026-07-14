@@ -741,13 +741,13 @@ Content
 
 .features-track {
     display: flex;
-    gap: 30px;
+    gap: 12px;
     transition: transform 0.6s ease;
     will-change: transform;
 }
 
 .features-slide {
-    flex: 0 0 calc((100% - 60px) / 3);
+    flex:0 0 calc((101% - 19px) / 3);
     width: 459px;
     height: 626px;
     background-size: cover;
