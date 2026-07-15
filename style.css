@@ -353,6 +353,7 @@ body {
    HERO SECTION
    ============================================================ */
 .hero-section {
+        margin-bottom: 50px;
     width: 100%;
     height: 100vh;
     min-height: 700px;
@@ -393,7 +394,7 @@ body {
     z-index: 1;
 }
 
-.hero-overlay {
+/* .hero-overlay {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -401,7 +402,7 @@ body {
     background: linear-gradient(to right, rgba(26, 10, 0, 0.85) 0%, rgba(26, 10, 0, 0.4) 60%, rgba(26, 10, 0, 0.1) 100%);
     z-index: 3;
     pointer-events: none;
-}
+} */
 
 .hero-content {
     position: absolute;
@@ -546,28 +547,34 @@ body {
 /*==========================
 Vision Section
 ==========================*/
-
-.vision-section {
+.vision-section{
     position: relative;
     width: 100%;
     max-width: 1920px;
-    height: 842px;
+    height: 945px; /* apne hisab se */
     margin: auto;
-    overflow: hidden;
-    background: url("./images/vision.png") center center/cover no-repeat;
-}
 
+    background-image: url("./images/vision.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 250px; /* image ko neeche le aayega */
+}
 /* Overlay */
-.vision-overlay {
+.vision-overlay{
     position: absolute;
-    inset: 0;
-    background:
-        linear-gradient(180deg,
-            #FFF5EE 30.65%,
-            rgba(251, 240, 234, 0.68) 57.04%,
-            rgba(246, 235, 228, 0.60) 63.63%,
-            rgba(174, 154, 151, 0) 86.91%);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 842px; /* image jitni */
     z-index: 1;
+
+    background: linear-gradient(
+        180deg,
+        #FFF5EE 30.65%,
+        rgba(251,240,234,.68) 57.04%,
+        rgba(246,235,228,.60) 63.63%,
+        rgba(174,154,151,0) 86.91%
+    );
 }
 
 .vision-container {
@@ -677,7 +684,7 @@ Content
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 0 80px;
+    padding: 15px 0 80px;
     background: #F7F0EA;
 }
 
@@ -762,7 +769,7 @@ Content
 }
 
 .features-slide-content {
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -862,24 +869,23 @@ Content
 
 /* Beneficiaries */
 .features-beneficiaries {
-    margin-top: 24px;
-    padding: 50px 60px;
-    background: url('./images/f-bg.png') center center/cover no-repeat;
-    text-align: center;
     position: relative;
+    padding: 30px 60px;
+    background: url('./images/f-bg.png') center bottom / cover no-repeat;
     overflow: hidden;
 }
 
-.beneficiaries-overlay {
+.beneficiaries-overlay{
     position: absolute;
     inset: 0;
-    background: rgba(247, 240, 234, 0.85);
+background: rgba(247, 240, 234, 0.1);
     z-index: 1;
+    
 }
 
 .beneficiaries-title {
     margin-right: 130px;
-    font-family: 'Rozha One', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: 400;
     font-style: italic;
@@ -888,7 +894,7 @@ Content
     align-items: center;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     position: relative;
     z-index: 2;
 }
@@ -903,10 +909,10 @@ Content
 .beneficiaries-desc {
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 40px;
     color: #111111;
-    max-width: 1100px;
+    max-width: 1145px;
     margin: 0 auto;
     position: relative;
     z-index: 2;
@@ -953,9 +959,9 @@ Content
     }
 
     .vision-title {
-        font-size: 44px;
+        font-size: 50px;
         line-height: 52px;
-        max-width: 680px;
+        max-width: 700px;
     }
 
     .vision-content {
@@ -982,15 +988,15 @@ Content
     }
 
     .features-slide-content h3 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .beneficiaries-title {
-        font-size: 44px;
+        font-size: 50px;
     }
 
     .beneficiaries-desc {
-        font-size: 24px;
+        font-size: 27px;
         line-height: 36px;
     }
 
@@ -2457,6 +2463,7 @@ SMALL MOBILE - 400px
     padding: 30px 0;
     position: relative;
     z-index: 1;
+    padding-bottom: 0px;
 }
 
 /* Left side – flag image */
@@ -2551,9 +2558,10 @@ SMALL MOBILE - 400px
     }
 
     .journey-left {
-        flex: 0 0 349.6px;
+        flex: 0 0 374.6px;
         width: 349.6px;
         height: 386.51px;
+        margin-top: 18px;
     }
 
     .journey-heading {
@@ -3563,7 +3571,7 @@ ABOUT SECTION
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 45px 0;
+    /* padding: 45px 0; */
     background: #FDF5EF;
     overflow: hidden;
 }
@@ -3593,8 +3601,8 @@ LEFT
 }
 
 .about-left img {
-    width: 132%;
-    max-width: 1047px;
+ width: 180%;
+    max-width: 1285px;
     height: auto;
     display: block;
     object-fit: contain;
@@ -3629,7 +3637,7 @@ RIGHT
     position: relative;
     z-index: 5;
 
-    margin-left: -180px;
+    margin-left: 38px;
     /* Image ke upar aayega */
 
     background: transparent;
@@ -3644,16 +3652,16 @@ RIGHT
     margin-bottom: 18px;
 
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
 
-    color: #FF5500;
+    color: #D9590B;
 }
 
 .about-title {
-
+    font-weight: 400;
     margin-bottom: 30px;
-
+    padding-right: 54px;
     font-family: 'Rozha One', serif;
     font-size: 50px;
     line-height: 65px;
@@ -3662,18 +3670,17 @@ RIGHT
 }
 
 .about-title span {
-    color: #FF5500;
+    color: #D9590B;
 }
 
 .about-right p {
-
+    font-weight: 400;
     margin-bottom: 25px;
     /* padding: 0 140px; */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 32px;
-
-    color: #4F4F4F;
+    color: #111111;
 }
 
 .about-btn {
