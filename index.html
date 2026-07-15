@@ -343,10 +343,7 @@ About Section End
                         </div>
                     </div>
                 </div>
-                <div class="features-slider-nav">
-                    <button class="features-prev" id="featuresPrev"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button class="features-next" id="featuresNext"><i class="fa-solid fa-chevron-right"></i></button>
-                </div>
+
             </div>
 
             <!-- Button with arrow below -->
@@ -869,8 +866,9 @@ Footer End
         // ============================================================
         const track = document.getElementById('featuresTrack');
         const slides_feat = track.querySelectorAll('.features-slide');
-        const prevBtn = document.getElementById('featuresPrev');
-        const nextBtn = document.getElementById('featuresNext');
+        // Remove prevBtn & nextBtn from top, use bottom arrows
+        const prevBtn = document.querySelector('.arrow-left');
+        const nextBtn = document.querySelector('.arrow-right');
 
         let slidesPerView = 3;
         let totalSlides = slides_feat.length;
