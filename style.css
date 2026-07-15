@@ -353,7 +353,7 @@ body {
    HERO SECTION
    ============================================================ */
 .hero-section {
-        margin-bottom: 50px;
+    margin-bottom: 50px;
     width: 100%;
     height: 100vh;
     min-height: 700px;
@@ -514,7 +514,6 @@ body {
 }
 
 /* Hero Dots */
-/* Hero Dots */
 .hero-dots {
     position: absolute;
     bottom: 40px;
@@ -550,34 +549,31 @@ body {
 /*==========================
 Vision Section
 ==========================*/
-.vision-section{
+.vision-section {
     position: relative;
     width: 100%;
     max-width: 1920px;
-    height: 945px; /* apne hisab se */
-    margin: auto;
-
+    height: 945px;
+    margin: auto 0 50px;
     background-image: url("./images/vision.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center 250px; /* image ko neeche le aayega */
+    background-position: center 250px;
 }
+
 /* Overlay */
-.vision-overlay{
+.vision-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 842px; /* image jitni */
+    height: 842px;
     z-index: 1;
-
-    background: linear-gradient(
-        180deg,
-        #FFF5EE 30.65%,
-        rgba(251,240,234,.68) 57.04%,
-        rgba(246,235,228,.60) 63.63%,
-        rgba(174,154,151,0) 86.91%
-    );
+    background: linear-gradient(180deg,
+            #FFF5EE 30.65%,
+            rgba(251, 240, 234, .68) 57.04%,
+            rgba(246, 235, 228, .60) 63.63%,
+            rgba(174, 154, 151, 0) 86.91%);
 }
 
 .vision-container {
@@ -686,8 +682,8 @@ Content
 .features-section {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
-    padding: 15px 0 80px;
+        margin: 0 auto 90px;
+    padding: 15px 0 1px;
     background: #F7F0EA;
 }
 
@@ -769,11 +765,22 @@ Content
     align-items: flex-end;
     justify-content: center;
     padding: 30px 20px;
+    border-radius: 12px;
+}
+
+/* Overlay on Image - Bilkul image jaisa */
+.features-slide-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
 }
 
 .features-slide-content {
     text-align: left;
     width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .features-slide-content h3 {
@@ -783,34 +790,6 @@ Content
     color: #FFFFFF;
     line-height: 1.3;
     text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-}
-
-/* Slider Navigation */
-.features-slider-nav {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 30px;
-}
-
-.features-slider-nav button {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    border: 1px solid #D9590B;
-    background: transparent;
-    color: #D9590B;
-    font-size: 18px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.features-slider-nav button:hover {
-    background: #D9590B;
-    color: #FFFFFF;
 }
 
 /* Button with arrows below */
@@ -844,7 +823,7 @@ Content
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 12px;
+margin-top: 30px;
 }
 
 .features-btn-arrows span {
@@ -852,9 +831,19 @@ Content
     font-size: 40px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 100;
 }
 
+
+
 .features-btn-arrows span:hover {
+    background: rgba(217, 89, 11, 0.1);
     color: #B87333;
 }
 
@@ -878,12 +867,11 @@ Content
     overflow: hidden;
 }
 
-.beneficiaries-overlay{
+.beneficiaries-overlay {
     position: absolute;
     inset: 0;
-background: rgba(247, 240, 234, 0.1);
+    background: rgba(247, 240, 234, 0.1);
     z-index: 1;
-    
 }
 
 .beneficiaries-title {
@@ -897,7 +885,6 @@ background: rgba(247, 240, 234, 0.1);
     align-items: center;
     justify-content: center;
     gap: 16px;
-    /* margin-bottom: 20px; */
     position: relative;
     z-index: 2;
 }
@@ -919,6 +906,7 @@ background: rgba(247, 240, 234, 0.1);
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
 /* ============================================================
@@ -1448,7 +1436,17 @@ background: rgba(247, 240, 234, 0.1);
     }
 
     .vision-section {
-        padding: 50px 0;
+        padding: 10px 0;
+        background-size: initial;
+        background-position: center -20px;
+    }
+
+    .vision-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 580px;
     }
 
     .vision-container {
@@ -1488,7 +1486,7 @@ background: rgba(247, 240, 234, 0.1);
     }
 
     .features-section {
-        padding: 40px 0 50px;
+        padding: 10px 0 50px;
     }
 
     .features-container {
@@ -1521,12 +1519,6 @@ background: rgba(247, 240, 234, 0.1);
 
     .features-slider-wrapper {
         padding: 0 15px;
-    }
-
-    .features-slider-nav button {
-        width: 44px;
-        height: 44px;
-        font-size: 16px;
     }
 
     .features-desc {
@@ -1689,7 +1681,9 @@ background: rgba(247, 240, 234, 0.1);
     }
 
     .vision-section {
-        padding: 40px 0;
+        padding: 50px 0;
+        background-size: initial;
+        background-position: center 69px;
     }
 
     .vision-container {
@@ -1731,16 +1725,20 @@ background: rgba(247, 240, 234, 0.1);
     }
 
     .features-section {
-        padding: 30px 0 40px;
+        padding: 10px 0 40px;
     }
 
     .features-container {
         padding: 0 12px;
     }
 
+    .hero-text {
+        margin-top: 295px;
+    }
+
     .features-slide {
         flex: 0 0 100%;
-        height: 300px;
+        height: 480px;
         padding: 20px 15px;
     }
 
@@ -1770,12 +1768,6 @@ background: rgba(247, 240, 234, 0.1);
     .features-track {
         display: flex;
         gap: 30px;
-    }
-
-    .features-slider-nav button {
-        width: 38px;
-        height: 38px;
-        font-size: 14px;
     }
 
     .features-btn-wrapper {
@@ -1974,7 +1966,7 @@ GUIDING SECTION
 .guiding-section {
     width: 100%;
     max-width: 1920px;
-    margin: auto;
+    margin: 0 auto 50px;
     background: #fff;
     padding: 50px 50px 50px;
 }
@@ -2440,7 +2432,7 @@ SMALL MOBILE - 400px
 .journey-section {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     background: url("./images/j-bg.png") center top/100% 100% no-repeat;
     padding: 0 40px;
     position: relative;
@@ -2626,6 +2618,7 @@ SMALL MOBILE - 400px
         flex: 0 0 auto;
         width: 280px;
         height: 310px;
+        margin-left: 270px;
     }
 
     .journey-right {
@@ -2664,6 +2657,7 @@ SMALL MOBILE - 400px
     .journey-left {
         width: 220px;
         height: 244px;
+        margin-left: 210px;
     }
 
     .journey-heading {
@@ -2696,6 +2690,7 @@ SMALL MOBILE - 400px
     .journey-left {
         width: 180px;
         height: 200px;
+        margin-left: 170px;
     }
 
     .journey-heading {
@@ -2819,42 +2814,6 @@ SMALL MOBILE - 400px
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*==========================================
 FOOTER
 ==========================================*/
@@ -2919,7 +2878,6 @@ FOOTER
     justify-content: space-between;
     align-items: flex-start;
 }
-
 
 /*==========================================
 LEFT
@@ -3001,7 +2959,6 @@ LEFT
     border-color: #FF5500;
 }
 
-
 /*==========================================
 LINKS
 ==========================================*/
@@ -3054,7 +3011,6 @@ LINKS
 
     color: #FF5500;
 }
-
 
 /*==========================================
 CONTACT
@@ -3137,25 +3093,6 @@ CONTACT
     color: #FF5500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*=========================================
 1400px
 =========================================*/
@@ -3181,7 +3118,6 @@ CONTACT
     }
 
 }
-
 
 /*=========================================
 1200px
@@ -3234,10 +3170,6 @@ CONTACT
 
 }
 
-
-/*=========================================
-1024px
-=========================================*/
 /*=========================================
 1024px
 =========================================*/
@@ -3447,7 +3379,6 @@ CONTACT
 
 }
 
-
 /*=========================================
 576px
 =========================================*/
@@ -3564,8 +3495,6 @@ CONTACT
 
 }
 
-
-
 /*==============================
 ABOUT SECTION
 ==============================*/
@@ -3573,8 +3502,7 @@ ABOUT SECTION
 .about-section {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
-    /* padding: 45px 0; */
+    margin: 0 auto 50px;
     background: #FDF5EF;
     overflow: hidden;
 }
@@ -3604,7 +3532,7 @@ LEFT
 }
 
 .about-left img {
- width: 180%;
+    width: 180%;
     max-width: 1285px;
     height: auto;
     display: block;
@@ -3641,7 +3569,6 @@ RIGHT
     z-index: 5;
 
     margin-left: 38px;
-    /* Image ke upar aayega */
 
     background: transparent;
 
@@ -3679,7 +3606,6 @@ RIGHT
 .about-right p {
     font-weight: 400;
     margin-bottom: 25px;
-    /* padding: 0 140px; */
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 32px;
@@ -3745,9 +3671,9 @@ RIGHT
     }
 
     .about-left img {
-        max-width: 710px;
+        max-width: 815px;
         position: relative;
-        left: 180px;
+        left: 254px;
     }
 }
 
@@ -3759,7 +3685,7 @@ RIGHT
 
     .about-section {
 
-        padding: 50px 18px;
+        padding: 0px 18px;
     }
 
     .about-container {
@@ -3768,9 +3694,9 @@ RIGHT
     }
 
     .about-left img {
-
-        max-width: 550px;
-
+        position: relative;
+        left: 181px;
+        max-width: 680px;
         width: 100%;
     }
 
@@ -3785,9 +3711,9 @@ RIGHT
     }
 
     .about-title {
-
+        padding-right: 1px;
+        text-align: center;
         font-size: 34px;
-
         line-height: 46px;
     }
 
@@ -3809,7 +3735,6 @@ RIGHT
 
 }
 
-
 /*=========================================
 576px
 =========================================*/
@@ -3817,16 +3742,15 @@ RIGHT
 @media (max-width:576px) {
 
     .about-section {
-
-        padding: 45px 15px;
+        margin: auto;
+        padding: 1px 15px;
     }
 
     .about-left img {
         position: relative;
-        left: 110px;
-        width: 100%;
-
-        max-width: 100%;
+        left: 60px;
+        width: 130%;
+        max-width: 145%;
     }
 
     .about-left::after {
@@ -3842,14 +3766,13 @@ RIGHT
     }
 
     .about-right p {
-        padding: 0 85px;
+        padding: 0 30px;
         font-size: 14px;
 
         line-height: 25px;
     }
 
 }
-
 
 /*=========================================
 400px
@@ -3905,8 +3828,8 @@ RIGHT
 @media (max-width: 425px) {
     .about-left img {
         position: relative;
-        left: 90px;
-        width: 100%;
-        max-width: 100%;
+        left: 70px;
+        width: 125%;
+        max-width: 123%;
     }
 }
