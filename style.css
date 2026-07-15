@@ -514,6 +514,7 @@ body {
 }
 
 /* Hero Dots */
+/* Hero Dots */
 .hero-dots {
     position: absolute;
     bottom: 40px;
@@ -535,9 +536,11 @@ body {
 }
 
 .hero-dots .dot.active {
-    background: #D4A843;
-    border-color: #D4A843;
-    transform: scale(1.2);
+    width: 60px;
+    border-radius: 10px;
+    background: #D9590B;
+    border-color: #D9590B;
+    transform: none;
 }
 
 .hero-dots .dot:hover {
