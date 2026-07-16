@@ -1010,6 +1010,63 @@ Content
     }
 }
 
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .vision-section {
+        height: 925px !important;
+        background-position: center 350px !important;
+        background-size: contain !important;
+        margin: auto 0 50px !important;
+        top: 0 !important;
+        position: relative !important;
+    }
+
+    .vision-overlay {
+        height: 1115px !important;
+    }
+
+    .vision-container {
+        padding: 0 40px !important;
+    }
+
+    .vision-top {
+        margin-top: 45px !important;
+    }
+
+    .vision-content {
+        padding: 0 70px !important;
+        gap: 160px !important;
+        margin-top: 75px !important;
+    }
+
+    .vision-box {
+        width: 50% !important;
+    }
+
+    .vision-box h3 {
+        font-size: 24px !important;
+    }
+
+    .vision-box p {
+        font-size: 16px !important;
+        line-height: 34px !important;
+    }
+
+    .vision-title {
+        font-size: 50px !important;
+        line-height: 58px !important;
+        max-width: 760px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
 /* ============================================================
    RESPONSIVE - 1200px
    ============================================================ */
@@ -1126,6 +1183,62 @@ Content
 
     .features-container {
         padding: 0 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .vision-section {
+        height: 810px !important;
+        background-position: center 355px !important;
+        background-size: contain !important;
+        margin: auto 0 50px !important;
+        top: 0 !important;
+        position: relative !important;
+    }
+
+    .vision-overlay {
+        height: 1050px !important;
+    }
+
+    .vision-container {
+        padding: 0 40px !important;
+    }
+
+    .vision-top {
+        margin-top: 0px !important;
+    }
+
+    .vision-content {
+        padding: 0 1px !important;
+        gap: 160px !important;
+        margin-top: 75px !important;
+    }
+
+    .vision-box {
+        width: 50% !important;
+    }
+
+    .vision-box h3 {
+        font-size: 24px !important;
+    }
+
+    .vision-box p {
+        font-size: 14px !important;
+        line-height: 34px !important;
+    }
+
+    .vision-title {
+        font-size: 50px !important;
+        line-height: 58px !important;
+        max-width: 760px !important;
     }
 }
 
@@ -1350,6 +1463,238 @@ Content
     }
 }
 
+
+
+
+
+/* ============================================================
+   VISION SECTION - FOR 769px TO 1023px
+   ============================================================ */
+@media (min-width: 892px) and (max-width: 1023px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 1009px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 612px !important;
+        padding: 1px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 30px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 34px !important;
+        line-height: 42px !important;
+        max-width: 100% !important;
+    }
+
+    .vision-content {
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 40px !important;
+        padding: 0 !important;
+        gap: 40px !important;
+    }
+
+    .vision-box {
+        width: 100% !important;
+        max-width: 600px !important;
+        text-align: center !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 20px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 20px !important;
+    }
+
+    .vision-box p {
+        font-size: 14px !important;
+        line-height: 28px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 17px !important;
+    }
+
+    .vision-top .image {
+        width: 130px !important;
+        height: 36px !important;
+    }
+
+    .vision-overlay {
+        height: 842px !important;
+    }
+
+    .features-section {
+        padding: 20px 0 60px !important;
+    }
+
+    .features-container {
+        padding: 0 20px !important;
+    }
+
+    .features-slide {
+        flex: 0 0 calc((100% - 30px) / 2) !important;
+        height: 540px !important;
+    }
+
+    .features-slide-content h3 {
+        font-size: 20px !important;
+    }
+
+    .features-title {
+        font-size: 34px !important;
+        line-height: 42px !important;
+    }
+
+    .features-subtitle {
+        font-size: 17px !important;
+    }
+
+    .features-icon {
+        width: 130px !important;
+        height: 36px !important;
+    }
+
+    .features-slider-wrapper {
+        padding: 0 20px !important;
+    }
+
+    .features-desc {
+        margin: 20px 50px 0 !important;
+        max-width: 1170px !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+}
+
+/* ============================================================
+   VISION SECTION - FOR 769px TO 891px
+   ============================================================ */
+@media (min-width: 769px) and (max-width: 891px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 960px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 612px !important;
+        padding: 1px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 30px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 34px !important;
+        line-height: 42px !important;
+        max-width: 100% !important;
+    }
+
+    .vision-content {
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 40px !important;
+        padding: 0 !important;
+        gap: 40px !important;
+    }
+
+    .vision-box {
+        width: 100% !important;
+        max-width: 600px !important;
+        text-align: center !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 20px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 20px !important;
+    }
+
+    .vision-box p {
+        font-size: 14px !important;
+        line-height: 28px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 17px !important;
+    }
+
+    .vision-top .image {
+        width: 130px !important;
+        height: 36px !important;
+    }
+
+    .vision-overlay {
+        height: 842px !important;
+    }
+
+    .features-section {
+        padding: 20px 0 60px !important;
+    }
+
+    .features-container {
+        padding: 0 20px !important;
+    }
+
+    .features-slide {
+        flex: 0 0 calc((100% - 30px) / 2) !important;
+        height: 540px !important;
+    }
+
+    .features-slide-content h3 {
+        font-size: 20px !important;
+    }
+
+    .features-title {
+        font-size: 34px !important;
+        line-height: 42px !important;
+    }
+
+    .features-subtitle {
+        font-size: 17px !important;
+    }
+
+    .features-icon {
+        width: 130px !important;
+        height: 36px !important;
+    }
+
+    .features-slider-wrapper {
+        padding: 0 20px !important;
+    }
+
+    .features-desc {
+        margin: 20px 50px 0 !important;
+        max-width: 1170px !important;
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+}
+
 /* ============================================================
    RESPONSIVE - 768px
    ============================================================ */
@@ -1507,6 +1852,7 @@ Content
 
     .vision-box {
         max-width: 100%;
+        padding: -1 48px;
     }
 
     .vision-box h3 {
@@ -1597,6 +1943,73 @@ Content
     }
 }
 
+
+/* ============================================================
+   VISION SECTION - FOR 600px TO 767px
+   ============================================================ */
+@media (min-width: 600px) and (max-width: 767px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 822px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 555px !important;
+        padding: 0px 0 !important;
+    }
+
+    .vision-overlay {
+        height: 580px !important;
+    }
+
+    .vision-container {
+        padding: 0 20px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
+
+    .vision-content {
+        gap: 30px !important;
+        margin-top: 30px !important;
+    }
+
+    .vision-box {
+        max-width: 100% !important;
+    }
+
+    .vision-box h3 {
+        font-size: 18px !important;
+    }
+
+    .vision-box p {
+        font-size: 13px !important;
+        line-height: 26px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 15px !important;
+    }
+
+    .vision-top .image {
+        width: 110px !important;
+        height: 32px !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 20px !important;
+    }
+}
+
 /* ============================================================
    RESPONSIVE - 576px
    ============================================================ */
@@ -1657,27 +2070,43 @@ Content
 
     .hero-title-default {
         font-size: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-subtitle-default {
         font-size: 30px;
         line-height: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-description-default {
         font-size: 15px;
         margin-top: 10px;
         line-height: 1.5;
-        max-width: 82%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .hero-title-other {
         font-size: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-subtitle-other {
         font-size: 30px;
         line-height: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-description-other {
@@ -1685,6 +2114,10 @@ Content
         margin-top: 10px;
         line-height: 1.5;
         max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .hero-btn {
@@ -1702,7 +2135,7 @@ Content
     .hero-text {
         max-width: 420px;
         width: 100%;
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
 
 
@@ -1762,12 +2195,12 @@ Content
         position: relative;
         width: 100%;
         max-width: 1907px;
-        height: 760px;
+        height: 846px;
         margin: auto 0 50px;
         background-image: url(./images/vision.png);
         background-repeat: no-repeat;
         /* background-size: initial; */
-        background-position: center 570px;
+        background-position: center 667px;
         padding: 30px 0;
     }
 
@@ -1871,6 +2304,73 @@ Content
     }
 }
 
+/* ============================================================
+   VISION SECTION - FOR 400px TO 576px
+   ============================================================ */
+@media (min-width: 450px) and (max-width: 576px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 752px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 547px !important;
+        padding: 30px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 15px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+
+    .vision-content {
+        gap: 25px !important;
+        margin-top: 25px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 16px !important;
+    }
+
+    .vision-box p {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 14px !important;
+    }
+
+    .vision-top .image {
+        width: 90px !important;
+        height: 28px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .vision-top .line {
+        width: 30px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 20px !important;
+    }
+
+    .vision-overlay {
+        height: 580px !important;
+    }
+}
 
 /* ============================================================
    RESPONSIVE - 400px
@@ -1940,12 +2440,12 @@ Content
         position: relative;
         width: 100%;
         max-width: 1907px;
-        height: 660px;
+        height: 714px;
         margin: auto 0 50px;
         background-image: url(./images/vision.png);
         background-repeat: no-repeat;
         /* background-size: initial; */
-        background-position: center 495px;
+        background-position: center 535px;
         padding: 0px 0;
     }
 
@@ -2017,6 +2517,215 @@ Content
     .beneficiaries-title img {
         margin-bottom: 49px;
         margin-right: 32px;
+    }
+}
+
+/* ============================================================
+   VISION SECTION - FOR 375px TO 449px
+   ============================================================ */
+@media (min-width: 400px) and (max-width: 449px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 626px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 449px !important;
+        padding: 0px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 12px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+
+    .vision-content {
+        gap: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 14px !important;
+    }
+
+    .vision-box p {
+        font-size: 11px !important;
+        line-height: 20px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 12px !important;
+    }
+
+    .vision-top .image {
+        width: 70px !important;
+        height: 22px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .vision-top .line {
+        width: 24px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 20px !important;
+    }
+
+    .vision-overlay {
+        height: 580px !important;
+    }
+}
+
+
+
+/* ============================================================
+   VISION SECTION - FOR 310px TO 399px
+   ============================================================ */
+@media (min-width: 340px) and (max-width: 399px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 590px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 440px !important;
+        padding: 0px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 10px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+
+    .vision-content {
+        gap: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 13px !important;
+    }
+
+    .vision-box p {
+        font-size: 10px !important;
+        line-height: 18px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 11px !important;
+    }
+
+    .vision-top .image {
+        width: 60px !important;
+        height: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .vision-top .line {
+        width: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 15px !important;
+        width: 30px !important;
+    }
+
+    .vision-overlay {
+        height: 500px !important;
+    }
+}
+
+
+/* ============================================================
+   VISION SECTION - FOR 310px TO 339px
+   ============================================================ */
+@media (min-width: 310px) and (max-width: 339px) {
+    .vision-section {
+        top: 124% !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 1907px !important;
+        height: 525px !important;
+        margin: auto 0 50px !important;
+        background-image: url(./images/vision.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center 375px !important;
+        padding: 0px 0 !important;
+    }
+
+    .vision-container {
+        padding: 0 8px !important;
+    }
+
+    .vision-top {
+        margin-top: 0 !important;
+    }
+
+    .vision-title {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    .vision-content {
+        gap: 12px !important;
+        margin-top: 12px !important;
+    }
+
+    .vision-box h3 {
+        font-size: 12px !important;
+    }
+
+    .vision-box p {
+        font-size: 9px !important;
+        line-height: 16px !important;
+    }
+
+    .vision-subtitle {
+        font-size: 10px !important;
+    }
+
+    .vision-top .image {
+        width: 50px !important;
+        height: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .vision-top .line {
+        width: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .vision-box .line {
+        margin: 0 auto 12px !important;
+        width: 25px !important;
+    }
+
+    .vision-overlay {
+        height: 450px !important;
     }
 }
 
@@ -3769,7 +4478,7 @@ RIGHT
     background: #111111;
 }
 
-/*=========================================
+/* =========================================
 1024px
 =========================================*/
 @media(max-width:1024px) {
@@ -3785,14 +4494,18 @@ RIGHT
     }
 
     .about-title {
+        display: flex;
         margin-bottom: 30px;
         font-family: 'Rozha One', serif;
         font-size: 42px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
     }
 
     .about-right p {
         margin-bottom: 25px;
-        padding: 0 140px;
+        padding: 0 90px;
     }
 
     .about-right {
