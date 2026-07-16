@@ -1,6 +1,17 @@
 /* ============================================================
    GLOBAL RESET & BASE
    ============================================================ */
+/* Font Display Swap for better performance */
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rozha One';
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
