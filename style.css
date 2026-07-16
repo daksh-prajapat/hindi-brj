@@ -1850,7 +1850,7 @@ Content
 .beneficiaries-title {
     font-size: 24px;
     gap: 10px;
-    margin-right: 70px;
+    margin-right: 135px;
 }
 
 .beneficiaries-title i {
@@ -2380,7 +2380,7 @@ MOBILE - 576px (1 image)
 
 @media (max-width: 576px) {
     .guiding-section {
-        padding: 40px 15px;
+        padding: 32px 15px;
     }
 
     .guiding-container {
@@ -2473,7 +2473,7 @@ SMALL MOBILE - 400px
     }
 
     .guiding-group-image {
-        height: 250px;
+        height: 270px;
     }
 
     .guide-card {
@@ -3270,7 +3270,8 @@ CONTACT
 
         grid-template-areas:
             "about about about"
-            "links1 links2 contact";
+            "links1 links2 contact"
+            "social social social";
 
         gap: 35px 25px;
 
@@ -3292,6 +3293,9 @@ CONTACT
 
     .footer-social {
         justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        grid-area: social;
     }
 
     /* Institution */
@@ -3378,7 +3382,8 @@ CONTACT
         grid-template-areas:
             "about about"
             "links1 links2"
-            "contact contact";
+            "contact contact"
+            "social social";
 
         gap: 30px 20px;
 
@@ -3404,6 +3409,12 @@ CONTACT
     .footer-social {
         justify-content: center;
         flex-wrap: wrap;
+          grid-area: social;
+
+        max-width: 500px;
+        width: 100%;
+
+        margin: 0 auto;
     }
 
     /* Institution */
@@ -3480,9 +3491,9 @@ CONTACT
             "about about"
             "links1 links2"
             "contact contact"
-            "social";
-            ;
-            
+            "social social";
+        ;
+
 
         gap: 20px 15px;
     }
@@ -3498,7 +3509,7 @@ CONTACT
     }
 
     .footer-social {
-        /* grid-area: social; */
+        grid-area: social;
         justify-content: center;
         flex-wrap: wrap;
     }
