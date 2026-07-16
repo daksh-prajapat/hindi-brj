@@ -555,7 +555,7 @@ Vision Section
     max-width: 1920px;
     height: 945px;
     margin: auto 0 50px;
-    background-image: url("./images/vision.png");
+    background-image: url("./images/vision.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 250px;
@@ -1297,7 +1297,7 @@ Content
         max-width: 1907px;
         height: 1062px;
         margin: auto 0 50px;
-        background-image: url(./images/vision.png);
+        background-image: url(./images/vision.webp);
         background-repeat: no-repeat;
         background-position: center 611px;
         padding: 1px 0;
@@ -1436,7 +1436,7 @@ Content
         max-width: 1907px !important;
         height: 1009px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 612px !important;
         padding: 1px 0 !important;
@@ -1550,7 +1550,7 @@ Content
         max-width: 1907px !important;
         height: 960px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 612px !important;
         padding: 1px 0 !important;
@@ -1779,7 +1779,7 @@ Content
         max-width: 1907px;
         height: 846px;
         margin: auto 0 50px;
-        background-image: url(./images/vision.png);
+        background-image: url(./images/vision.webp);
         background-repeat: no-repeat;
         background-position: center 503px;
         padding: 0px 0;
@@ -1911,7 +1911,7 @@ Content
         max-width: 1907px !important;
         height: 822px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 555px !important;
         padding: 0px 0 !important;
@@ -2139,7 +2139,7 @@ Content
         max-width: 1907px;
         height: 846px;
         margin: auto 0 50px;
-        background-image: url(./images/vision.png);
+        background-image: url(./images/vision.webp);
         background-repeat: no-repeat;
         background-position: center 667px;
         padding: 30px 0;
@@ -2256,7 +2256,7 @@ Content
         max-width: 1907px !important;
         height: 752px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 547px !important;
         padding: 30px 0 !important;
@@ -2401,7 +2401,7 @@ Content
         max-width: 1907px;
         height: 714px;
         margin: auto 0 50px;
-        background-image: url(./images/vision.png);
+        background-image: url(./images/vision.webp);
         background-repeat: no-repeat;
         background-position: center 535px;
         padding: 0px 0;
@@ -2489,7 +2489,7 @@ Content
         max-width: 1907px !important;
         height: 626px !important;
         margin: 50px 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 449px !important;
         padding: 0px 0 !important;
@@ -2557,7 +2557,7 @@ Content
         max-width: 1907px !important;
         height: 590px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 440px !important;
         padding: 0px 0 !important;
@@ -2626,7 +2626,7 @@ Content
         max-width: 1907px !important;
         height: 525px !important;
         margin: auto 0 50px !important;
-        background-image: url(./images/vision.png) !important;
+        background-image: url(./images/vision.webp) !important;
         background-repeat: no-repeat !important;
         background-position: center 375px !important;
         padding: 0px 0 !important;
@@ -3591,7 +3591,7 @@ FOOTER
     width: 100%;
     height: 100%;
 
-    background-image: url("./images/rama.png");
+    background-image: url("./images/rama.webp");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 485px auto;
@@ -4193,7 +4193,7 @@ CONTACT
         width: 100%;
         height: 100%;
 
-        background-image: url("./images/rama.png");
+        background-image: url("./images/rama.webp");
         background-repeat: no-repeat;
         background-position: right bottom;
         background-size: 390px auto;
