@@ -5,11 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>हर घर रामायण</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rozha+One&display=swap"
-        rel="stylesheet">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload Google Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rozha+One&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rozha+One&display=swap">
+    </noscript>
+    
+    <!-- Preload Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
+    
+    <!-- Preload CSS -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
+    
 </head>
 
 <body>
@@ -21,20 +39,16 @@
                 <div class="ticker-track">
                     <span>रघुकुल रीत सदा चली आई | प्राण जाई पर वचन न जाई ||</span>
                     <span>परहित बस जिन्ह के मन माहीं। तिन्ह कहुँ जग दुर्लभ कछु नाहीं ||</span>
-                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं
-                        है |</span>
+                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं है |</span>
                     <span>पर हित सरिस धर्म नहिं भाई। पर पीड़ा सम नहिं अधमाई ||</span>
                     <span>निर्नय सकल पुरान बेद कर। कहेउँ तात जानहिं कोबिद नर ||</span>
-                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान
-                        कोई नीचता (पाप) नहीं है |</span>
+                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान कोई नीचता (पाप) नहीं है |</span>
                     <span>रघुकुल रीत सदा चली आई | प्राण जाई पर वचन न जाई ||</span>
                     <span>परहित बस जिन्ह के मन माहीं। तिन्ह कहुँ जग दुर्लभ कछु नाहीं ||</span>
-                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं
-                        है |</span>
+                    <span>भावार्थ : जिन लोगों के मन में दूसरों का हित होता है, उनके लिए दुनिया में कुछ भी मुश्किल नहीं है |</span>
                     <span>पर हित सरिस धर्म नहिं भाई। पर पीड़ा सम नहिं अधमाई ||</span>
                     <span>निर्नय सकल पुरान बेद कर। कहेउँ तात जानहिं कोबिद नर ||</span>
-                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान
-                        कोई नीचता (पाप) नहीं है |</span>
+                    <span>भावार्थ : हे भाई! दूसरों की भलाई के समान कोई धर्म नहीं है और दूसरों को दुःख पहुँचाने के समान कोई नीचता (पाप) नहीं है |</span>
                 </div>
             </div>
         </div>
@@ -43,14 +57,12 @@
         <div class="header-main" id="headerMain">
             <div class="header-container">
                 <div class="header-logo">
-                    <img src="./images/logo.png" alt="Logo" id="logoImg">
+                    <img src="./images/logo.png" alt="Logo" id="logoImg" width="78" height="71" loading="lazy">
                 </div>
 
                 <nav class="header-nav" id="navMenu">
                     <ul>
-                        <li><a href="#">
-                                <p>हमारा परिचय</p>
-                            </a></li>
+                        <li><a href="#"><p>हमारा परिचय</p></a></li>
                         <li><a href="#">नेतृत्व</a></li>
                         <li><a href="#">गतिविधियाँ</a></li>
                         <li><a href="#">फोटो संग्रह</a></li>
@@ -71,7 +83,7 @@
         <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
         <nav class="mobile-nav" id="mobileNav">
             <div class="mobile-nav-header">
-                <img src="./images/logo.png" alt="Logo" class="mobile-nav-logo">
+                <img src="./images/logo.png" alt="Logo" class="mobile-nav-logo" width="78" height="71" loading="lazy">
                 <button class="mobile-nav-close" id="mobileNavClose">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
@@ -100,11 +112,8 @@
                     <div class="hero-text">
                         <h1 class="hero-title hero-title-default">घर-घर राम</h1>
                         <h2 class="hero-subtitle hero-subtitle-default">हर घर रामायण</h2>
-                        <p class="hero-description hero-description-default">
-                            हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों, चरित्र एवं रामायण के संदेश को
-                            पहुँचाना।
-                        </p>
-                        <button class="hero-btn">आज ही हमसे जुड़ें </button>
+                        <p class="hero-description hero-description-default">हिंदू समाज के प्रत्येक घर तक भगवान श्रीराम के आदर्शों, चरित्र एवं रामायण के संदेश को पहुँचाना।</p>
+                        <button class="hero-btn">आज ही हमसे जुड़ें</button>
                     </div>
                 </div>
             </div>
@@ -116,11 +125,8 @@
                     <div class="hero-text">
                         <h1 class="hero-title hero-title-other">राष्ट्र सेवा की ओर</h1>
                         <h2 class="hero-subtitle hero-subtitle-other">एक कदम</h2>
-                        <p class="hero-description hero-description-other">
-                            महिला सशक्तिकरण, युवा चेतना, सिंहा और <br> सामाजिक कल्याण के माध्यम से बेहतर भविष्य का <br>
-                            निर्माण।
-                        </p>
-                        <button class="hero-btn">आज ही हमसे जुड़ें </button>
+                        <p class="hero-description hero-description-other">महिला सशक्तिकरण, युवा चेतना, सिंहा और सामाजिक कल्याण के माध्यम से बेहतर भविष्य का निर्माण।</p>
+                        <button class="hero-btn">आज ही हमसे जुड़ें</button>
                     </div>
                 </div>
             </div>
@@ -132,11 +138,8 @@
                     <div class="hero-text">
                         <h1 class="hero-title hero-title-other">सेवा, एकता और</h1>
                         <h2 class="hero-subtitle hero-subtitle-other">सहू निर्माण का संकल्प</h2>
-                        <p class="hero-description hero-description-other">
-                            भारत जागृति संघ से जुड़ें और सगाज सेवा, संस्कृति <br> संरक्षण एवं सामूहिक प्रयासों से एक
-                            सशक्त और <br> आत्मनिर्भर भारत के निर्माण में योगदान दें
-                        </p>
-                        <button class="hero-btn">आज ही हमसे जुड़ें </button>
+                        <p class="hero-description hero-description-other">भारत जागृति संघ से जुड़ें और सगाज सेवा, संस्कृति संरक्षण एवं सामूहिक प्रयासों से एक सशक्त और आत्मनिर्भर भारत के निर्माण में योगदान दें</p>
+                        <button class="hero-btn">आज ही हमसे जुड़ें</button>
                     </div>
                 </div>
             </div>
@@ -159,7 +162,7 @@ About Section Start
             <!-- Left Image -->
             <div class="about-left">
 
-                <img src="./images/about-img.png" alt="About Image">
+                <img src="./images/about-img.png" alt="About Image" width="1285" height="auto" loading="lazy">
 
             </div>
 
@@ -211,7 +214,7 @@ About Section End
 
             <div class="vision-top">
                 <div class="image">
-                    <img src="./images/vision-1.png" alt="">
+                    <img src="./images/vision-1.png" alt="" width="180" height="46" loading="lazy">
                 </div>
                 <p class="vision-subtitle">हमारी सोच और उद्देश्य</p>
                 <h2 class="vision-title">
@@ -259,7 +262,7 @@ About Section End
             <!-- Top Heading -->
             <div class="features-top">
                 <div class="features-icon">
-                    <img src="./images/vision-1.png" alt="Features Icon">
+                    <img src="./images/vision-1.png" alt="Features Icon" width="180" height="46" loading="lazy">
                 </div>
                 <p class="features-subtitle">हमारी विशेषताएँ</p>
                 <h2 class="features-title">समाज निर्माण के हमारे <span>लक्ष्य</span></h2>
@@ -273,84 +276,84 @@ About Section End
                         <div class="features-slide" style="background-image: url('./images/f-1.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>नारी सशक्तिकरण<br>अभियान</h3>
+                                <h3>नारी सशक्तिकरण अभियान</h3>
                             </div>
                         </div>
                         <!-- Slide 2 -->
                         <div class="features-slide" style="background-image: url('./images/f-2.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण<br>के लिए युवाओं को प्रेरित करना</h3>
+                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण के लिए युवाओं को प्रेरित करना</h3>
                             </div>
                         </div>
                         <!-- Slide 3 -->
                         <div class="features-slide" style="background-image: url('./images/f-3.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>वंचित वर्ग की सहायता और शिक्षा<br>को प्रोत्साहन देना</h3>
+                                <h3>वंचित वर्ग की सहायता और शिक्षा को प्रोत्साहन देना</h3>
                             </div>
                         </div>
                         <!-- Slide 4 -->
                         <div class="features-slide" style="background-image: url('./images/f-1.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>नारी सशक्तिकरण<br>अभियान</h3>
+                                <h3>नारी सशक्तिकरण अभियान</h3>
                             </div>
                         </div>
                         <!-- Slide 5 -->
                         <div class="features-slide" style="background-image: url('./images/f-2.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण<br>के लिए युवाओं को प्रेरित करना</h3>
+                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण के लिए युवाओं को प्रेरित करना</h3>
                             </div>
                         </div>
                         <!-- Slide 6 -->
                         <div class="features-slide" style="background-image: url('./images/f-3.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>वंचित वर्ग की सहायता और शिक्षा<br>को प्रोत्साहन देना</h3>
+                                <h3>वंचित वर्ग की सहायता और शिक्षा को प्रोत्साहन देना</h3>
                             </div>
                         </div>
                         <!-- Slide 7 -->
                         <div class="features-slide" style="background-image: url('./images/f-1.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>नारी सशक्तिकरण<br>अभियान</h3>
+                                <h3>नारी सशक्तिकरण अभियान</h3>
                             </div>
                         </div>
                         <!-- Slide 8 -->
                         <div class="features-slide" style="background-image: url('./images/f-2.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण<br>के लिए युवाओं को प्रेरित करना</h3>
+                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण के लिए युवाओं को प्रेरित करना</h3>
                             </div>
                         </div>
                         <!-- Slide 9 -->
                         <div class="features-slide" style="background-image: url('./images/f-3.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>वंचित वर्ग की सहायता और शिक्षा<br>को प्रोत्साहन देना</h3>
+                                <h3>वंचित वर्ग की सहायता और शिक्षा को प्रोत्साहन देना</h3>
                             </div>
                         </div>
                         <!-- Slide 10 -->
                         <div class="features-slide" style="background-image: url('./images/f-1.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>नारी सशक्तिकरण<br>अभियान</h3>
+                                <h3>नारी सशक्तिकरण अभियान</h3>
                             </div>
                         </div>
                         <!-- Slide 11 -->
                         <div class="features-slide" style="background-image: url('./images/f-2.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण<br>के लिए युवाओं को प्रेरित करना</h3>
+                                <h3>राष्ट्र निर्माण एवं संस्कृति संरक्षण के लिए युवाओं को प्रेरित करना</h3>
                             </div>
                         </div>
                         <!-- Slide 12 -->
                         <div class="features-slide" style="background-image: url('./images/f-3.png');">
                             <div class="features-slide-overlay"></div>
                             <div class="features-slide-content">
-                                <h3>वंचित वर्ग की सहायता और शिक्षा<br>को प्रोत्साहन देना</h3>
+                                <h3>वंचित वर्ग की सहायता और शिक्षा को प्रोत्साहन देना</h3>
                             </div>
                         </div>
                     </div>
@@ -361,8 +364,8 @@ About Section End
             <div class="features-btn-wrapper">
                 <button class="features-btn">एक साथ, एक बेहतर बदलाव की ओर</button>
                 <div class="features-btn-arrows">
-                    <div class="arrow-left"><img src="./images/arrow-l.png" alt=""></div>
-                    <div class="arrow-right"><img src="./images/arrow-r.png" alt=""></div>
+                    <div class="arrow-left"><img src="./images/arrow-l.png" alt="" width="40" height="40" loading="lazy"></div>
+                    <div class="arrow-right"><img src="./images/arrow-r.png" alt="" width="40" height="40" loading="lazy"></div>
                 </div>
             </div>
 
@@ -376,7 +379,7 @@ About Section End
             <!-- Beneficiaries -->
             <div class="features-beneficiaries">
                 <div class="beneficiaries-overlay"></div>
-                <h2 class="beneficiaries-title"><img src="./images/tick.png" alt=""> संस्था के लाभार्थी</h2>
+                <h2 class="beneficiaries-title"><img src="./images/tick.png" alt="" width="63" height="63" loading="lazy"> संस्था के लाभार्थी</h2>
                 <p class="beneficiaries-desc">
                     ट्रस्ट के लाभार्थियों में भारत के सभी नागरिक शामिल होंगे, चाहे उनका धर्म, जाति, समुदाय या लिंग कोई
                     भी हो। इसके साथ ही ट्रस्ट के उद्देश्यों के अनुरूप अन्य पात्र व्यक्तियों को भी लाभ प्रदान किया जाएगा।
@@ -397,7 +400,7 @@ GUIDING COMMITTEE SECTION
             <div class="guiding-left">
 
                 <div class="guiding-logo">
-                    <img src="./images/vision-1.png" alt="">
+                    <img src="./images/vision-1.png" alt="" width="180" height="46" loading="lazy">
                 </div>
 
                 <p class="guiding-subtitle">
@@ -415,7 +418,7 @@ GUIDING COMMITTEE SECTION
                 </a>
 
                 <div class="guiding-group-image">
-                    <img src="./images/3-men.png" alt="">
+                    <img src="./images/3-men.png" alt="" width="495" height="445" loading="lazy">
                 </div>
 
             </div>
@@ -429,7 +432,7 @@ GUIDING COMMITTEE SECTION
                     <div class="guide-card">
 
                         <div class="guide-image">
-                            <img src="./images/men-1.png" alt="">
+                            <img src="./images/men-1.png" alt="" width="100%" height="100%" loading="lazy">
                         </div>
 
                         <div class="guide-content">
@@ -448,7 +451,7 @@ GUIDING COMMITTEE SECTION
                     <div class="guide-card">
 
                         <div class="guide-image">
-                            <img src="./images/men-2.png" alt="">
+                            <img src="./images/men-2.png" alt="" width="100%" height="100%" loading="lazy">
                         </div>
 
                         <div class="guide-content">
@@ -467,7 +470,7 @@ GUIDING COMMITTEE SECTION
                     <div class="guide-card">
 
                         <div class="guide-image">
-                            <img src="./images/men-3.png" alt="">
+                            <img src="./images/men-3.png" alt="" width="100%" height="100%" loading="lazy">
                         </div>
 
                         <div class="guide-content">
@@ -486,7 +489,7 @@ GUIDING COMMITTEE SECTION
                     <div class="guide-card">
 
                         <div class="guide-image">
-                            <img src="./images/men-4.png" alt="">
+                            <img src="./images/men-4.png" alt="" width="100%" height="100%" loading="lazy">
                         </div>
 
                         <div class="guide-content">
@@ -529,14 +532,14 @@ GUIDING COMMITTEE SECTION
         <div class="journey-container">
             <!-- Left side: flag image -->
             <div class="journey-left">
-                <img src="./images/flag.png" alt="flag" class="journey-flag-img" />
+                <img src="./images/flag.png" alt="flag" class="journey-flag-img" width="349.6" height="386.51" loading="lazy" />
             </div>
 
             <!-- Right side: text + button -->
             <div class="journey-right">
                 <!-- small icon (180.35 x 46.75) -->
                 <div class="journey-icon">
-                    <img src="./images/vision-1.png" alt="icon" />
+                    <img src="./images/vision-1.png" alt="icon" width="180.35" height="46.75" loading="lazy" />
                 </div>
 
                 <h2 class="journey-heading">
@@ -557,7 +560,7 @@ GUIDING COMMITTEE SECTION
     <!-- FRAME 550 SECTION - Full Width 54px Height -->
     <!-- ============================================================ -->
     <section class="frame-550-section">
-        <img src="./images/line.png" alt="Frame 550" class="frame-550-img" />
+        <img src="./images/line.png" alt="Frame 550" class="frame-550-img" width="100%" height="54" loading="lazy" />
     </section>
 
     <!--==============================
@@ -577,7 +580,7 @@ Footer Start
             <div class="footer-about">
 
                 <div class="footer-logo">
-                    <img src="images/f-img.png" alt="Logo">
+                    <img src="images/f-img.png" alt="Logo" width="91" height="83" loading="lazy">
                 </div>
 
                 <p class="footer-text">
@@ -720,7 +723,7 @@ Footer Start
 Footer End
 ===============================-->
 
-    <script>
+    <script defer>
         document.addEventListener("DOMContentLoaded", function () {
 
             // ============================================================
@@ -755,12 +758,10 @@ Footer End
             let slideInterval;
 
             function goToSlide(index) {
-                // Remove active from all slides and dots
                 for (var i = 0; i < slides.length; i++) {
                     slides[i].classList.remove("active");
                     dots[i].classList.remove("active");
                 }
-                // Add active to selected slide and dot
                 slides[index].classList.add("active");
                 dots[index].classList.add("active");
                 currentSlide = index;
@@ -781,7 +782,6 @@ Footer End
                 startSlider();
             }
 
-            // Dot click events
             for (var j = 0; j < dots.length; j++) {
                 (function (index) {
                     dots[index].addEventListener("click", function () {
@@ -791,7 +791,6 @@ Footer End
                 })(j);
             }
 
-            // Start the slider
             startSlider();
 
             // ============================================================
@@ -876,7 +875,6 @@ Footer End
         // ============================================================
         const track = document.getElementById('featuresTrack');
         const slides_feat = track.querySelectorAll('.features-slide');
-        // Remove prevBtn & nextBtn from top, use bottom arrows
         const prevBtn = document.querySelector('.arrow-left');
         const nextBtn = document.querySelector('.arrow-right');
 
@@ -976,11 +974,9 @@ Footer End
             startAutoSlide();
         }
 
-        // Initialize
         slidesPerView = getSlidesPerView();
         updateSlider(false);
 
-        // Event Listeners
         prevBtn.addEventListener('click', function (e) {
             e.stopPropagation();
             prevSlideFeat();
@@ -991,7 +987,6 @@ Footer End
             nextSlideFeat();
         });
 
-        // Window resize
         var resizeTimeout;
         window.addEventListener('resize', function () {
             clearTimeout(resizeTimeout);
@@ -1007,10 +1002,8 @@ Footer End
             }, 200);
         });
 
-        // Start auto slide
         startAutoSlide();
 
-        // Pause on hover
         var sliderWrapper = document.querySelector('.features-slider-wrapper');
         sliderWrapper.addEventListener('mouseenter', function () {
             clearInterval(autoSlideInterval);

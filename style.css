@@ -728,8 +728,6 @@ Content
     color: #111111;
 }
 
-
-
 .features-title span {
     color: #D9590B;
 }
@@ -840,8 +838,6 @@ Content
     border-radius: 4px;
     font-weight: 100;
 }
-
-
 
 .features-btn-arrows span:hover {
     background: rgba(217, 89, 11, 0.1);
@@ -982,7 +978,6 @@ Content
         padding: 0 30px;
     }
 }
-
 
 @media (min-width: 1200px) and (max-width: 1439px) {
     .vision-section {
@@ -1711,7 +1706,7 @@ Content
 
     .hero-description-default {
         font-size: 14px;
-        max-width: 55%;
+        max-width: 75%;
         margin-top: 12px;
         line-height: 1.6;
     }
@@ -1726,7 +1721,7 @@ Content
 
     .hero-description-other {
         font-size: 12px;
-        max-width: 100%;
+        max-width: 75%;
         margin-top: 12px;
         line-height: 1.6;
     }
@@ -2482,7 +2477,7 @@ Content
         width: 100% !important;
         max-width: 1907px !important;
         height: 626px !important;
-        margin: auto 0 50px !important;
+        margin: 50px 0 50px !important;
         background-image: url(./images/vision.png) !important;
         background-repeat: no-repeat !important;
         background-position: center 449px !important;
@@ -3589,7 +3584,6 @@ FOOTER
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 485px auto;
-    /* size apne hisab se adjust karo */
 
     z-index: 1;
 }
@@ -4153,7 +4147,6 @@ CONTACT
             "links1 links2"
             "contact contact"
             "social social";
-        ;
 
 
         gap: 20px 15px;
