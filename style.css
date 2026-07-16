@@ -682,7 +682,7 @@ Content
 .features-section {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto 90px;
+    margin: 0 auto 60px;
     padding: 20px 0 100px;
     position: relative;
     z-index: 1;
@@ -3653,115 +3653,56 @@ LEFT
 }
 
 .footer-text {
-
     margin-top: 22px;
-
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-
     color: #ffffff;
 }
 
-.footer-social {
+/*==========================================
+FOOTER HEADINGS - Changed from h3/h4 to span
+==========================================*/
 
-    margin-top: 34px;
-
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
-
-.footer-social span {
-
+.footer-heading {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 500;
-
+    font-weight: 600;
     color: #ffffff;
-}
-
-.social-icons {
-
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons a {
-
-    width: 34.64px;
-    height: 34.64px;
-    border-radius: 4.7px;
-    border: 1px solid rgba(255, 255, 255, .7);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-decoration: none;
-
-    color: #ffffff;
-
-    transition: .3s;
-}
-
-.social-icons a:hover {
-
-    background: #FF5500;
-    border-color: #FF5500;
+    margin-bottom: 26px;
+    display: block;
 }
 
 /*==========================================
 LINKS
 ==========================================*/
 
-.footer-links h3 {
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-
-    color: #ffffff;
-
-    margin-bottom: 26px;
-}
-
 .footer-links ul {
-
     list-style: none;
-
     padding: 0;
     margin: 0;
 }
 
 .footer-links li {
-
     margin-bottom: 12px;
 }
 
 .footer-links li:last-child {
-
     margin-bottom: 0;
 }
 
 .footer-links a {
-
     text-decoration: none;
-
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
-
     line-height: 26px;
-
     color: #ffffff;
-
     transition: .3s;
 }
 
 .footer-links a:hover {
-
     color: #FF5500;
 }
 
@@ -3769,81 +3710,90 @@ LINKS
 CONTACT
 ==========================================*/
 
-.footer-contact h3 {
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-
-    color: #ffffff;
-
-    margin-bottom: 24px;
-}
-
 .footer-contact .address {
-
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     line-height: 22px;
-
     color: #ffffff;
-
     margin-bottom: 26px;
 }
 
 .contact-item {
-
     display: flex;
     align-items: flex-start;
-
     gap: 12px;
-
     margin-bottom: 18px;
 }
 
 .contact-item:last-child {
-
     margin-bottom: 0;
 }
 
 .contact-icon {
-
     width: 18px;
-
     color: #ffffff;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 2px;
 }
 
-.contact-item h4 {
-
+.contact-item span {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 700;
-
     color: #ffffff;
-
     margin-bottom: 4px;
+    display: block;
 }
 
 .contact-item a {
-
     text-decoration: none;
-
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
-
     color: #ffffff;
 }
 
 .contact-item a:hover {
-
     color: #FF5500;
+}
+
+.footer-social {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-social span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 34.64px;
+    height: 34.64px;
+    border-radius: 4.7px;
+    border: 1px solid rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    background: #FF5500;
+    border-color: #FF5500;
 }
 
 /*=========================================
@@ -3902,8 +3852,7 @@ CONTACT
         line-height: 21px;
     }
 
-    .footer-links h3,
-    .footer-contact h3 {
+    .footer-heading {
         font-size: 18px;
     }
 
@@ -4011,20 +3960,12 @@ CONTACT
         flex-direction: column;
     }
 
-    .contact-item h4 {
-        font-family: 'Poppins', sans-serif;
+    .contact-item span {
         font-size: 12px;
-        font-weight: 700;
-        color: #ffffff;
-        margin-bottom: 4px;
     }
 
     .contact-item a {
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        font-weight: 400;
-        color: #ffffff;
     }
 }
 
@@ -4118,14 +4059,13 @@ CONTACT
         line-height: 20px;
     }
 
-    .footer-links h3,
-    .footer-contact h3 {
+    .footer-heading {
         font-size: 18px;
     }
 
     .footer-links a,
     .footer-contact .address,
-    .contact-item h4,
+    .contact-item span,
     .contact-item a {
         font-size: 11px;
     }
@@ -4217,14 +4157,13 @@ CONTACT
     }
 
     /* Font Sizes */
-    .footer-links h3,
-    .footer-contact h3 {
+    .footer-heading {
         font-size: 15px;
     }
 
     .footer-links a,
     .footer-contact .address,
-    .contact-item h4,
+    .contact-item span,
     .contact-item a,
     .footer-text {
         font-size: 10px;
@@ -4277,7 +4216,8 @@ CONTACT
 }
 
 /*==============================
-ABOUT SECTION - COMPLETE FIX==============================*/
+ABOUT SECTION - COMPLETE FIX
+==============================*/
 
 .about-section {
     width: 100%;
