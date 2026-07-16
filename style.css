@@ -880,8 +880,8 @@ Content
     line-height: 32px;
     color: #111111;
     text-align: center;
-    max-width: 900px;
-    margin: 20px auto 0;
+    max-width: 1141px;
+    margin: 20px 119px 0;
 }
 
 /* Beneficiaries */
@@ -1326,6 +1326,8 @@ Content
     }
 
     .features-desc {
+      margin: 20px 50px 0;
+        max-width: 1170px;
         font-size: 16px;
         line-height: 26px;
     }
@@ -1678,7 +1680,7 @@ Content
         font-size: 15px;
         margin-top: 10px;
         line-height: 1.5;
-        max-width: 70%;
+        max-width: 82%;
     }
 
     .hero-title-other {
@@ -1694,7 +1696,7 @@ Content
         font-size: 15px;
         margin-top: 10px;
         line-height: 1.5;
-        max-width: 94%;
+        max-width: 100%;
     }
 
     .hero-btn {
@@ -1790,7 +1792,7 @@ Content
     }
 
     .hero-text {
-        margin-top: 255px;
+        margin-top: 195px;
     }
 
     .features-slide {
@@ -1899,6 +1901,7 @@ Content
         width: 110px;
         height: 30px;
         font-size: 10px;
+        margin-left: 50px;
     }
 
     .hero-content {
